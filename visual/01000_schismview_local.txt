@@ -8,7 +8,9 @@ copy path and execute:
 python C:\Users\Felicio.Cassalho\.conda\envs\cmvd\Lib\site-packages\pyScripts/schismview
 
 
-For my case:
+
+
+For case in my local:
 cd to the folder with all the output data
 python       /c/Users/Xu.Chen/AppData/Local/anaconda3/envs/schism/Lib/site-packages/pylibs/scripts/schismview
 
