@@ -1,0 +1,17 @@
+install with:
+pip install git+https://github.com/wzhengui/pylibs.git
+
+find where schismview is:
+python -c "from pylib import *; print(mylib.__file__[:-16]+'Scripts/schismview')"
+
+copy path and execute:
+python C:\Users\Felicio.Cassalho\.conda\envs\cmvd\Lib\site-packages\pyScripts/schismview
+
+
+For my case:
+cd to the folder with all the output data
+python       /c/Users/Xu.Chen/AppData/Local/anaconda3/envs/schism/Lib/site-packages/pylibs/scripts/schismview
+
+
+
+
