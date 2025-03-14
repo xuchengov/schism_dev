@@ -1,3 +1,38 @@
+"""
+-- coding: utf-8 --
+
+Documentation for 01000_2dm_to_DomainShapefile.py
+
+
+Technical Contact(s):
+Name:  XC
+
+This script processes a mesh file using the ocsmesh library and converts it into a shapefile.
+
+Language:  Python 3.11
+
+Usage: Run the script to convert a mesh file into a polygon representation and save it as a shapefile.
+
+Arguments:
+- inputfile: Path to the mesh file (in .2dm format)
+
+Returns:
+- A shapefile representing the polygonal structure of the mesh.
+
+Dependencies:
+- ocsmesh
+- geopandas
+
+Author Name:  XC       Creation Date:  03/2025
+
+Revisions:
+Date          Author             Description
+----          ------             -----------
+03/2025       XC                Initial creation
+
+"""
+
+
 import ocsmesh  # Import the ocsmesh library for mesh processing
 import geopandas as gpd  # Import GeoPandas for handling geospatial data
 
